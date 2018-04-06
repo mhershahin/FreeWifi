@@ -1,0 +1,13 @@
+{
+  "type": "free_wifi",
+  "data_list": [
+    {
+      "username": "username1",
+      "password": "password1"
+    },
+    {
+      "username": "username2",
+      "password": "password2"
+    }
+  ]
+}

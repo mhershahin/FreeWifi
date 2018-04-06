@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_back">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edit_search"
+        android:hint="@string/search"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/transparent"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_marginTop="50dp"
+
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/search_emptyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_results"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+    <wifi.free.am.freewifi.recycler.RecyclerViewEmptySupport
+        android:id="@+id/search_wifi_recycler"
+        android:layout_marginTop="90dp"
+        android:layout_width="match_parent"
+        android:background="@color/fragment_back"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="5dp"/>
+
+
+</FrameLayout>

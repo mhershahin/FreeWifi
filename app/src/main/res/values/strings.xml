@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FreeWiFi</string>
+    <string name="app">App</string>
+    <string name="wifi">Wifi</string>
+    <string name="scans">Scans</string>
+    <string name="my_wifi">My Wifi</string>
+    <string name="search">Search</string>
+    <string name="no_scans">No Scan</string>
+    <string name="no_results">No Results</string>
+</resources>
